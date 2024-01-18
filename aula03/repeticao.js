@@ -14,6 +14,6 @@ cliente.endereços = [
     }
 ]
 
-for (let chave in cliente) {
-    console.log(cliente[chave])
+for (let chave in cliente) {  // a palavra reservada in vai percorer todas as chaves ou objetos dentro de cliente 
+    console.log(`A chave ${chave} tem como valor o objeto ${cliente[chave]}`)
 }
